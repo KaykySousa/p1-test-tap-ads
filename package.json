@@ -1,0 +1,23 @@
+{
+  "name": "prova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "mysql2": "^3.9.3",
+    "sequelize": "^6.37.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
